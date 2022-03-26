@@ -41,11 +41,11 @@
 // |       |     |     |      |      |      |        |  |       |      |       |       |      |       |       |
 //                     |      |      | LALT |        |  |       | RCTRL |       |       |
 			bindings = <
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &kp N4  &kp LSHIFT                 &trans    &trans    &trans          &trans    &trans    &trans
-&trans   &trans         &trans            &trans            &trans       &trans                            &trans    &trans    &trans          &trans    &trans    &trans
-&trans   &trans         &trans            &trans            &trans       &trans                            &trans    &trans    &trans          &trans    &trans    &trans
-&trans   &trans         &trans           &trans            &trans       &trans    &trans         &trans   &trans    &trans    &trans          &trans    &trans    &trans
-                          &trans       &trans       &kp LALT   &trans              &trans    &kp RCTRl    &trans    &trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp N4 &kp LSHIFT                    &trans    &trans    &trans  &trans    &trans    &trans
+&trans   &trans  &trans  &trans  &trans  &trans                                        &trans    &trans    &trans  &trans    &trans    &trans
+&trans   &trans  &trans  &trans  &trans  &trans                                        &trans    &trans    &trans  &trans    &trans    &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &trans                         &trans &trans    &trans    &trans  &trans    &trans    &trans
+                        &trans &trans &kp LALT &trans                              &trans &kp RCTRL  &trans  &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
