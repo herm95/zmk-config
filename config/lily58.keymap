@@ -45,7 +45,7 @@
 &trans   &trans  &trans  &trans  &trans  &trans                                        &trans    &trans    &trans  &trans    &trans    &trans
 &trans   &trans  &trans  &trans  &trans  &trans                                        &trans    &trans    &trans  &trans    &trans    &trans
 &trans   &trans  &trans  &trans  &trans  &trans  &trans                         &trans &trans    &trans    &trans  &trans    &trans    &trans
-                        &trans &kp UP &kp LCTRL  &trans                              &trans &kp RCTRL  &trans  &trans
+                        &trans &kp UP &kp LCTRL &trans                              &trans &kp RCTRL  &trans  &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -64,7 +64,7 @@
 &trans   &trans &trans  &trans   &trans  &trans                 &trans &trans &trans &trans &trans  &trans
 &trans   &trans &trans  &trans   &trans  &trans                &trans  &trans  &trans  &trans &trans &trans
 &trans   &trans &trans  &trans   &trans  &trans &trans     &kp DELETE &trans &trans &trans &trans &trans &trans
-                     &trans  &trans  &kp LALT   &trans   &trans  &kp CAPSLOCK  &kp DOWN    &trans
+                     &trans  &trans  &kp LALT &trans   &trans  &kp CAPSLOCK  &kp DOWN    &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
